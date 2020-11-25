@@ -6,9 +6,57 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
 }
 
+#welcome {
+  text-align: center;
+  color: white;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvtP-h0nsQMHLOg_LPyrA7TpNgnoSIrWdGnA&usqp=CAU");
+}
+
+#login{
+  transform: translateY(10rem);
+  font-size: 25px;}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+#root {
+  margin-left: 10px;
+}
+
+.container {
+  transform: translateX(12.5rem);
+  height: 750px;
+  position: absolute;
+  top: 80%;
+
+}
+.part {
+  width: 350px;
+  height: 350px;
+  margin-left: 0.25em;
+  margin-right: 0.25em;
+  margin-bottom: 1.0em;
+  display: inline-block;
+  background: rgb(227, 229, 233);
+  text-align: center;
+}
+#navigation{
+  width:100%;
+}
+
+#number {
+    position: relative;
+    top: 5%;
+    left: 5%;
+    width: 10%;
+    height: 10%;
+    -webkit-transform: rotate(-45deg);
+    background: rgb(115, 90, 202);
+  }
